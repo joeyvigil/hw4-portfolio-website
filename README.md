@@ -194,7 +194,7 @@ Simple breakpoints:
 }
 ```
 
-GitHub Pages Deployment
+# GitHub Pages Deployment
 ## Step 1: Create Repository
 Go to GitHub.com
 

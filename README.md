@@ -37,7 +37,7 @@ PYTHON, FLASK, SQL, API-DEVELOPMENT, FIREBASE, FIRESTORE
 
 ### File Organization
 
-```
+```text
 portfolio-website/
 ├── index.html          # Homepage
 ├── projects.html       # Projects showcase

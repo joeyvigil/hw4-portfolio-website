@@ -53,8 +53,16 @@ portfolio-website/
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Navigation -->
     <header>
-        <!-- Navigation -->
+         <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="projects.html" class="nav__link">Projects</a></li>
+                <li><a href="about.html" class="nav__link">About</a></li>
+                <li><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -206,7 +214,7 @@ Make it public
 
 Create repository
 ## Step 2: Upload Your Files
-# In your project folder
+In your project folder
 ```
 git init
 git add .

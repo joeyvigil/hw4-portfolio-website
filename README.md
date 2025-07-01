@@ -43,7 +43,7 @@ portfolio-website/
 ```
 # Essential HTML Structure
 ## Base Template
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +69,7 @@ portfolio-website/
 </html>
 ```
 ## Navigation Menu
-```
+```html
 <nav class="nav">
     <ul class="nav__list">
         <li><a href="index.html" class="nav__link">Home</a></li>
@@ -80,7 +80,7 @@ portfolio-website/
 </nav>
 ```
 ## Project Card Example
-```
+```html
 <article class="project">
     <img src="images/project-thumbnail.jpg" 
          alt="Project name"
@@ -99,7 +99,7 @@ portfolio-website/
 ```
 # CSS Styling Guide
 ## Essential Styles
-```
+```css
 /* Base styles */
 :root {
     --primary-color: #007bff;
@@ -183,7 +183,7 @@ body {
 ## Responsive Design Tips
 Mobile-first approach
 Simple breakpoints:
-```
+```css
 /* Tablet */
 @media (min-width: 768px) {
     /* Tablet styles */

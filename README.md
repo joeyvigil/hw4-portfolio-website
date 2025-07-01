@@ -1,10 +1,13 @@
 # hw4-portfolio-website
+
 Portfolio Website for Coding Temple
 
-https://joeyvigil.github.io/hw4-portfolio-website/
+<https://joeyvigil.github.io/hw4-portfolio-website/>
 
-# Building Your Portfolio Website 
-# Learning Objectives
+## Building Your Portfolio Website
+
+## Learning Objectives
+
 After completing this tutorial, you will be able to:
 
 - Plan and structure a professional portfolio website
@@ -15,22 +18,25 @@ After completing this tutorial, you will be able to:
 - Organize project files and assets efficiently
 - Create a compelling showcase of your work
 
+## Planning Your Portfolio
 
-# Planning Your Portfolio
-## Basic Structure
+### Basic Structure
+
 - Your portfolio website should include:
 - Homepage with introduction
 - Projects page
 - About page
 - Contact information
-## SKILLS:
+
+### SKILLS
 
 Frontend:
-HTML5, CSS3, JAVASCRIPT, REACT, TYPESCRIPT, BOOTSTRAP, MUI, TAILWIND 
+HTML5, CSS3, JAVASCRIPT, REACT, TYPESCRIPT, BOOTSTRAP, MUI, TAILWIND
 Backend:
 PYTHON, FLASK, SQL, API-DEVELOPMENT, FIREBASE, FIRESTORE
 
-## File Organization
+### File Organization
+
 ```
 portfolio-website/
 ├── index.html          # Homepage
@@ -42,8 +48,11 @@ portfolio-website/
 │   └── about.css
 └── images/           # Image assets
 ```
-# Essential HTML Structure
-## Base Template
+
+## Essential HTML Structure
+
+### Base Template
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -77,7 +86,9 @@ portfolio-website/
 </body>
 </html>
 ```
-## Navigation Menu
+
+### Navigation Menu
+
 ```html
 <nav class="nav">
     <ul class="nav__list">
@@ -88,7 +99,9 @@ portfolio-website/
     </ul>
 </nav>
 ```
-## Project Card Example
+
+### Project Card Example
+
 ```html
 <article class="project">
     <img src="images/project-thumbnail.jpg" 
@@ -106,8 +119,11 @@ portfolio-website/
     </div>
 </article>
 ```
-# CSS Styling Guide
-## Essential Styles
+
+## CSS Styling Guide
+
+### Essential Styles
+
 ```css
 /* Base styles */
 :root {
@@ -189,9 +205,12 @@ body {
     background-color: #0056b3;
 }
 ```
-## Responsive Design Tips
+
+### Responsive Design Tips
+
 Mobile-first approach
 Simple breakpoints:
+
 ```css
 /* Tablet */
 @media (min-width: 768px) {
@@ -204,8 +223,10 @@ Simple breakpoints:
 }
 ```
 
-# GitHub Pages Deployment
-## Step 1: Create Repository
+## GitHub Pages Deployment
+
+### Step 1: Create Repository
+
 Go to GitHub.com
 
 Click "New Repository"
@@ -215,16 +236,21 @@ Name it: username.github.io
 Make it public
 
 Create repository
-## Step 2: Upload Your Files
+
+### Step 2: Upload Your Files
+
 In your project folder
-```
+
+```git
 git init
 git add .
 git commit -m "Initial portfolio website"
 git remote add origin https://github.com/username/username.github.io.git
 git push -u origin main
 ```
-## Step 3: Enable GitHub Pages
+
+### Step 3: Enable GitHub Pages
+
 Go to repository settings
 
 Find "Pages" section
@@ -233,39 +259,46 @@ Select main branch
 
 Save changes
 
-Your site will be available at: https://username.github.io
+Your site will be available at: <https://username.github.io>
 
-# Common Issues & Solutions
-## Images not loading
+## Common Issues & Solutions
+
+### Images not loading
+
 Use relative paths
 
 Check file names and case sensitivity
 
 Verify file extensions
 
-## Styles not applying
+### Styles not applying
+
 Check file paths
 
 Verify CSS file is linked
 
 Clear browser cache
 
-## Layout breaks on mobile
+### Layout breaks on mobile
+
 Add viewport meta tag
 
 Use responsive units
 
 Test on different devices
 
-# Portfolio Content Tips
-## Homepage
+## Portfolio Content Tips
+
+### Homepage
+
 Clear introduction
 
 Professional photo (optional)
 
 Brief mission statement
 
-## Projects Page
+### Projects Page
+
 Best projects first or in order of relevance
 
 Clear screenshots
@@ -276,7 +309,8 @@ Technologies used
 
 Live demo links (if available)
 
-## About Page
+### About Page
+
 Professional summary
 
 Skills list
@@ -285,7 +319,8 @@ Education/training
 
 Interests/hobbies (optional)
 
-## Contact Page
+### Contact Page
+
 Email address
 
 Social media links
@@ -294,7 +329,8 @@ Simple contact form (optional)
 
 Location/timezone (optional)
 
-## Resources
+### Resources
+
 GitHub Pages Documentation
 
 Google Fonts

@@ -228,16 +228,25 @@ Your site will be available at: https://username.github.io
 # Common Issues & Solutions
 ## Images not loading
 Use relative paths
+
 Check file names and case sensitivity
+
 Verify file extensions
+
 ## Styles not applying
 Check file paths
+
 Verify CSS file is linked
+
 Clear browser cache
+
 ## Layout breaks on mobile
 Add viewport meta tag
+
 Use responsive units
+
 Test on different devices
+
 # Portfolio Content Tips
 ## Homepage
 Clear introduction

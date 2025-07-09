@@ -1,0 +1,145 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            border: 1px solid black
+
+        }
+
+        header {
+            padding: 0 17vw;
+            background: black;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background: black;
+            height: 7vh;
+            align-items: center;
+            border-bottom: 1px solid gray;
+        }
+
+        .nav-links{
+            display: flex;
+            width: 35vw;
+            justify-content: space-between;
+           
+            margin-top: 8px;
+        }
+
+        .nav-link{
+            text-decoration: none;
+            color: gray;
+        }
+
+        .nav-link:hover{
+            color: rgb(239, 101, 91);
+        }
+
+        li{
+            list-style-type: none;
+        }
+
+        .logo {
+            color: rgb(239, 101, 91)
+        }
+
+        .intro{
+            background: black;
+            height: 40vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+
+        .intro-text {
+            display: flex;
+            height: 30vh;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 50vw;
+            
+        }
+
+        h1 {
+            color: rgb(238, 237, 237);
+            font-size: 40px;
+            font-weight: 350;
+        }
+
+        #my-name {
+            color: rgb(239, 101, 91)
+        }
+
+        .my-heading {
+            color: gray;
+            font-weight: 400;
+        }
+
+        .my-bio {
+            color: rgb(238, 237, 237);
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        .icon {
+            border: none;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+
+        .btn-shape {
+            height: 40px;
+            padding: 0 10px;
+            border-radius: 7px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn-orange {
+            background: rgb(239, 101, 91);
+            color: rgb(238, 237, 237);
+        }
+
+        .btn-hollow {
+            background-color: black;
+            color: rgb(238, 237, 237);
+            border: .1px solid rgb(140, 140, 140);
+            
+            
+        }
+
+        .btn-orange:hover {
+            background-color: rgb(248, 156, 80);
+        }
+
+        .btn-hollow:hover {
+            color: rgb(239, 101, 91);
+            background: rgb(33, 33, 33);
+            border-color: white;
+        }
+
+
+        .my-img {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+            border: 3px solid rgb(239, 101, 91);
+            /* box-shadow: rgba(107, 224, 18, 0.25) 0px 54px 55px, rgba(107, 224, 18, 0.12) 0px -12px 30px, rgba(107, 224, 18, 0.12) 0px 4px 6px, rgba(107, 224, 18, 0.17) 0px 12px 13px, rgba(107, 224, 18, 0.09) 0px -3px 5px; */
+        }
+        

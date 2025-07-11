@@ -1,28 +1,40 @@
+        /* color pallet  https://www.color-hex.com/color-palette/1017619  https://www.color-hex.com/color-palette/1017620*/
+        :root {
+            --primary-color: #61afef;
+            --secondary-color: #e06c75;
+            --third-color: #c678dd;
+            --forth-color: #98c379;
+            --text-color: aliceblue;
+            --background-color: #282c34;
+            --greyish-color: #abb2bf;
+        }
+
         * {
             margin: 0;
             padding: 0;
-            font-family: "Roboto", sans-serif;
+            font-family: "TikTok Sans", sans-serif;
             font-optical-sizing: auto;
             font-weight: 600;
             font-style: normal;
             font-variation-settings: "wdth" 100;
-            border: 1px solid black
+            /* border: 1px solid var(--background-color) */
 
         }
-
+        /* ---NAV BAR--- */
         header {
             padding: 0 17vw;
-            background: black;
+            background: var(--background-color);
+            
         }
 
         nav {
             display: flex;
             justify-content: space-between;
             padding: 10px;
-            background: black;
+            background: var(--background-color);
             height: 7vh;
             align-items: center;
-            border-bottom: 1px solid gray;
+            border-bottom: 1px solid var(--greyish-color);
         }
 
         .nav-links{
@@ -35,11 +47,14 @@
 
         .nav-link{
             text-decoration: none;
-            color: gray;
+            color: var(--text-color);
         }
 
         .nav-link:hover{
-            color: rgb(239, 101, 91);
+            color: var(--secondary-color);
+        }
+        .active{
+            color: var(--secondary-color);
         }
 
         li{
@@ -47,21 +62,20 @@
         }
 
         .logo {
-            color: rgb(239, 101, 91)
+            color: var(--primary-color)
         }
-
+        /* ---INTRO--- */
         .intro{
-            background: black;
-            height: 40vh;
+            background: var(--background-color);
+            height: 89vh;
             display: flex;
-            justify-content: space-evenly;
-            align-items: center;
+
             
         }
 
         .intro-text {
             display: flex;
-            height: 30vh;
+            height: 50vh;
             flex-direction: column;
             justify-content: space-between;
             width: 50vw;
@@ -69,13 +83,16 @@
         }
 
         h1 {
-            color: rgb(238, 237, 237);
+            color: var(--text-color);
             font-size: 40px;
             font-weight: 350;
         }
 
         #my-name {
-            color: rgb(239, 101, 91)
+            color: var(--primary-color)
+        }
+        #highlight{
+            color: var(--third-color);
         }
 
         .my-heading {
@@ -84,20 +101,21 @@
         }
 
         .my-bio {
-            color: rgb(238, 237, 237);
+            color: var(--text-color);
             font-size: 20px;
             font-weight: 300;
         }
-
+        
+        /* ---buttons--- */
         .icon {
             border: none;
+            filter: brightness(0) invert(1);
         }
-
+ 
         .buttons {
             display: flex;
             gap: 10px;
         }
-
 
         .btn-shape {
             height: 40px;
@@ -110,36 +128,43 @@
         }
 
         .btn-orange {
-            background: rgb(239, 101, 91);
-            color: rgb(238, 237, 237);
+            /* background: var(--primary-color);  */
+            background: var(--third-color);
+            color: var(--text-color);
         }
 
         .btn-hollow {
-            background-color: black;
-            color: rgb(238, 237, 237);
+            background-color: var(--background-color);
+            color: aliceblue;
             border: .1px solid rgb(140, 140, 140);
-            
-            
         }
 
         .btn-orange:hover {
-            background-color: rgb(248, 156, 80);
+            background-color: var(--secondary-color);
         }
+
 
         .btn-hollow:hover {
-            color: rgb(239, 101, 91);
-            background: rgb(33, 33, 33);
-            border-color: white;
+            color: var(--primary-color);
+            background: var(--background-color);
+            border-color: var(--text-color);
+        }
+        a {
+            text-decoration: none;
         }
 
 
+        /* ---image--- */
         .my-img {
-            width: 250px;
-            height: 300px;
+            width: 500px;
+            height: 600px;
             object-fit: cover;
             object-position: top;
-            border-radius: 50%;
-            border: 3px solid rgb(239, 101, 91);
-            /* box-shadow: rgba(107, 224, 18, 0.25) 0px 54px 55px, rgba(107, 224, 18, 0.12) 0px -12px 30px, rgba(107, 224, 18, 0.12) 0px 4px 6px, rgba(107, 224, 18, 0.17) 0px 12px 13px, rgba(107, 224, 18, 0.09) 0px -3px 5px; */
+            border-radius: 35%;
+            border: 3px solid var(--third-color);
+            margin: 40px;
+            box-shadow: rgba(255, 255, 255, .1) 0px 12px 12px;
         }
-        
+
+
+        /* ---About--- */

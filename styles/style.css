@@ -69,8 +69,6 @@ li{
     background: var(--background-color);
     height: 91vh;
     display: flex;
-
-    
 }
 
 .intro-text {

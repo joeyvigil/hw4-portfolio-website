@@ -184,7 +184,7 @@ img {vertical-align: middle;}  */
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 20px;
   margin-top: -22px;
   color: var(--text-color);
   background-color: var(--fourth-color);

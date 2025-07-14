@@ -1,9 +1,9 @@
 /* color pallet  https://www.color-hex.com/color-palette/1017619  https://www.color-hex.com/color-palette/1017620*/
 :root {
-    --primary-color: #61afef;
+    --primary-color: #98c379;
     --secondary-color: #e06c75;
     --third-color: #c678dd;
-    --forth-color: #98c379;
+    --fourth-color: #61afef;
     --text-color: aliceblue;
     --background-color: #282c34;
     --greyish-color: #abb2bf;
@@ -127,7 +127,7 @@ h1 {
 
 .btn-orange {
     /* background: var(--primary-color);  */
-    background: var(--forth-color);
+    background: var(--fourth-color);
     color: var(--text-color);
 }
 
@@ -275,7 +275,7 @@ input[type=text], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: var(--forth-color);
+  background-color: var(--fourth-color);
   color: var(--text-color);
   /* padding: 14px 20px; */
   margin: 8px 0px;

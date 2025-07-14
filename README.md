@@ -4,6 +4,8 @@ Portfolio Website for Coding Temple
 
 <https://joeyvigil.github.io/hw4-portfolio-website/>
 
+![image](images/preview.jpg)
+
 ## Building Your Portfolio Website
 
 ## Learning Objectives

@@ -223,9 +223,12 @@ img {vertical-align: middle;}  */
   color: var(--text-color);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-size: 48px;
-  padding: 16px 16px;
+  /* padding: 16px 16px;
   position: absolute;
-  top: 4vh;
+  top: 4vh; */
+  position: fixed;
+  bottom: 6vh;
+  right: 11vw;
 }
 
 /* The dots/bullets/indicators */

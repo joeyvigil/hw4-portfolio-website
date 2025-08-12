@@ -76,7 +76,6 @@ li{
 }
 /* ---INTRO--- */
 .intro{
-    
     background: var(--background-color);
     /* height: 91vh; */
     display: flex;
@@ -93,11 +92,11 @@ li{
 }
 
 .index-text {
-    padding: 10vh 0;
+    padding: 10vw 0;
     display: flex;
-    height: 25vw;
+    /* height: 25vw; */
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* width: 50vw; */
     
 }
@@ -106,7 +105,7 @@ h1 {
     color: var(--text-color);
     font-size: 40px;
     font-weight: 350;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 #my-name {
@@ -120,14 +119,14 @@ h1 {
 .my-heading {
     color: var(--greyish-color);
     font-weight: 400;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .my-bio {
     color: var(--text-color);
     font-size: 20px;
     font-weight: 300;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 /* ---buttons--- */
@@ -138,7 +137,7 @@ h1 {
 }
 
 .buttons {
-    padding: 5px 0;
+    padding: 10px 0;
     display: flex;
     gap: 10px;
 }
@@ -354,6 +353,7 @@ textarea {
 
     .nav-links{
       display: flex;
+      flex-direction: column;
       width: 100vw;
       justify-content: space-between;
       margin-top: 8px;
@@ -371,4 +371,14 @@ textarea {
     .my-img {
       display: none;
     }
+
+    nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: var(--background-color);
+    height: 100px;
+    align-items: center;
+    border-bottom: 1px solid var(--greyish-color);
+}
 }

@@ -1,5 +1,5 @@
 /* Color Pallet from https://catppuccin.com/palette/ */
-/* :root {
+:root {
     --primary-color: #98c379;
     --secondary-color: #e06c75;
     --third-color: #c678dd;
@@ -7,9 +7,9 @@
     --text-color: aliceblue;
     --background-color: #282c34;
     --greyish-color: #abb2bf;
-} */
+}
 
-:root {
+/* :root {
     --primary-color: #a6da95;
     --secondary-color: #ed8796;
     --third-color: #c6a0f6;
@@ -17,7 +17,7 @@
     --text-color: white;
     --background-color: #181926;
     --greyish-color: #6e738d;
-}
+} */
 
 * {
     margin: 0;
@@ -383,4 +383,20 @@ textarea {
     align-items: center;
     border-bottom: 1px solid var(--greyish-color);
     }
+
+    .buttons {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .formbox {
+    margin: auto;
+    color: var(--text-color);
+    border-radius: 5px;
+    background-color: var(--background-color);
+    padding: 0px;
+    width: 65vw;
+    } 
 }

@@ -36,10 +36,10 @@ After completing this tutorial, you will be able to:
 
 ### SKILLS
 
-Frontend:
-HTML5, CSS3, JAVASCRIPT, REACT, TYPESCRIPT, BOOTSTRAP, MUI, TAILWIND
-Backend:
-PYTHON, FLASK, SQL, API-DEVELOPMENT, FIREBASE, FIRESTORE
+- Frontend:
+    - HTML5, CSS3, JAVASCRIPT, REACT, TYPESCRIPT, BOOTSTRAP, MUI, TAILWIND
+- Backend:
+    - PYTHON, FLASK, SQL, API-DEVELOPMENT, FIREBASE, FIRESTORE
 
 ### File Organization
 
@@ -233,15 +233,15 @@ Simple breakpoints:
 
 ### Step 1: Create Repository
 
-Go to GitHub.com
+- Go to GitHub.com
 
-Click "New Repository"
+- Click "New Repository"
 
-Name it: username.github.io
+- Name it: username.github.io
 
-Make it public
+- Make it public
 
-Create repository
+- Create repository
 
 ### Step 2: Upload Your Files
 
@@ -257,90 +257,90 @@ git push -u origin main
 
 ### Step 3: Enable GitHub Pages
 
-Go to repository settings
+- Go to repository settings
 
-Find "Pages" section
+- Find "Pages" section
 
-Select main branch
+- Select main branch
 
-Save changes
+- Save changes
 
-Your site will be available at: <https://username.github.io>
+- Your site will be available at: <https://username.github.io>
 
 ## Common Issues & Solutions
 
 ### Images not loading
 
-Use relative paths
+- Use relative paths
 
-Check file names and case sensitivity
+- Check file names and case sensitivity
 
-Verify file extensions
+- Verify file extensions
 
 ### Styles not applying
 
-Check file paths
+- Check file paths
 
-Verify CSS file is linked
+- Verify CSS file is linked
 
-Clear browser cache
+- Clear browser cache
 
 ### Layout breaks on mobile
 
-Add viewport meta tag
+- Add viewport meta tag
 
-Use responsive units
+- Use responsive units
 
-Test on different devices
+- Test on different devices
 
 ## Portfolio Content Tips
 
 ### Homepage
 
-Clear introduction
+- Clear introduction
 
-Professional photo (optional)
+- Professional photo (optional)
 
-Brief mission statement
+- Brief mission statement
 
 ### Projects Page
 
-Best projects first or in order of relevance
+- Best projects first or in order of relevance
 
-Clear screenshots
+- Clear screenshots
 
-Brief descriptions
+- Brief descriptions
 
-Technologies used
+- Technologies used
 
-Live demo links (if available)
+- Live demo links (if available)
 
 ### About Page
 
-Professional summary
+- Professional summary
 
-Skills list
+- Skills list
 
-Education/training
+- Education/training
 
-Interests/hobbies (optional)
+- Interests/hobbies (optional)
 
 ### Contact Page
 
-Email address
+- Email address
 
-Social media links
+- Social media links
 
-Simple contact form (optional)
+- Simple contact form (optional)
 
-Location/timezone (optional)
+- Location/timezone (optional)
 
 ### Resources
 
-GitHub Pages Documentation
+- GitHub Pages Documentation
 
-Google Fonts
+- Google Fonts
 
-Coolors Color Picker
+- Coolors Color Picker
 
-Unsplash Free Images
+- Unsplash Free Images

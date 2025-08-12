@@ -14,7 +14,7 @@
     --secondary-color: #ed8796;
     --third-color: #c6a0f6;
     --fourth-color: #8aadf4;
-    --text-color: #cad3f5;
+    --text-color: white;
     --background-color: #181926;
     --greyish-color: #6e738d;
 }
@@ -102,12 +102,11 @@ li{
     
 }
 
-
-
 h1 {
     color: var(--text-color);
     font-size: 40px;
     font-weight: 350;
+    padding: 5px 0;
 }
 
 #my-name {
@@ -121,12 +120,14 @@ h1 {
 .my-heading {
     color: var(--greyish-color);
     font-weight: 400;
+    padding: 5px 0;
 }
 
 .my-bio {
     color: var(--text-color);
     font-size: 20px;
     font-weight: 300;
+    padding: 5px 0;
 }
 
 /* ---buttons--- */
@@ -137,6 +138,7 @@ h1 {
 }
 
 .buttons {
+    padding: 5px 0;
     display: flex;
     gap: 10px;
 }
@@ -145,7 +147,7 @@ h1 {
     height: 40px;
     padding: 0 10px;
     border-radius: 7px;
-    font-size: 15px;
+    /* font-size: 15px; */
     display: flex;
     align-items: center;
     gap: 5px;
@@ -361,7 +363,6 @@ textarea {
       height: 40px;
       padding: 0 10px;
       border-radius: 7px;
-      font-size: 10px;
       display: flex;
       align-items: center;
       gap: 5px;

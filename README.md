@@ -10,7 +10,7 @@ Portfolio Website for Coding Temple
 ## Mobile Display
 ![image](images/mobile.jpg)
 
-## Building Your Portfolio Website
+# Building Your Portfolio Website
 
 ## Learning Objectives
 

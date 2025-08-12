@@ -234,13 +234,9 @@ Simple breakpoints:
 ### Step 1: Create Repository
 
 - Go to GitHub.com
-
 - Click "New Repository"
-
 - Name it: username.github.io
-
 - Make it public
-
 - Create repository
 
 ### Step 2: Upload Your Files
@@ -258,13 +254,9 @@ git push -u origin main
 ### Step 3: Enable GitHub Pages
 
 - Go to repository settings
-
 - Find "Pages" section
-
 - Select main branch
-
 - Save changes
-
 - Your site will be available at: <https://username.github.io>
 
 ## Common Issues & Solutions
@@ -272,25 +264,19 @@ git push -u origin main
 ### Images not loading
 
 - Use relative paths
-
 - Check file names and case sensitivity
-
 - Verify file extensions
 
 ### Styles not applying
 
 - Check file paths
-
 - Verify CSS file is linked
-
 - Clear browser cache
 
 ### Layout breaks on mobile
 
 - Add viewport meta tag
-
 - Use responsive units
-
 - Test on different devices
 
 ## Portfolio Content Tips
@@ -298,49 +284,34 @@ git push -u origin main
 ### Homepage
 
 - Clear introduction
-
 - Professional photo (optional)
-
 - Brief mission statement
 
 ### Projects Page
 
 - Best projects first or in order of relevance
-
 - Clear screenshots
-
 - Brief descriptions
-
 - Technologies used
-
 - Live demo links (if available)
 
 ### About Page
 
 - Professional summary
-
 - Skills list
-
 - Education/training
-
 - Interests/hobbies (optional)
 
 ### Contact Page
 
 - Email address
-
 - Social media links
-
 - Simple contact form (optional)
-
 - Location/timezone (optional)
 
 ### Resources
 
 - GitHub Pages Documentation
-
 - Google Fonts
-
 - Coolors Color Picker
-
 - Unsplash Free Images

@@ -4,7 +4,11 @@ Portfolio Website for Coding Temple
 
 <https://joeyvigil.github.io/hw4-portfolio-website/>
 
-![image](images/preview.jpg)
+## Desktop Display
+![image](images/full.jpg)
+
+## Mobile Display
+![image](images/mobile.jpg)
 
 ## Building Your Portfolio Website
 

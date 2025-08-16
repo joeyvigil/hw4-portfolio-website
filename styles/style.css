@@ -1,4 +1,15 @@
-/* Color Pallet from https://catppuccin.com/palette/ */
+/* Github Styling */
+/* :root {
+    --primary-color: #7ce38b;
+    --secondary-color: #fa7970;
+    --third-color: #cea5fb;
+    --fourth-color: #77bdfb;
+    --text-color: #ecf2f8;
+    --background-color: #161b22;
+    --greyish-color:#89929b;
+} */
+
+/* Atom One */
 :root {
     --primary-color: #98c379;
     --secondary-color: #e06c75;
@@ -9,6 +20,7 @@
     --greyish-color: #abb2bf;
 }
 
+/* Color Pallet from https://catppuccin.com/palette/ */
 /* :root {
     --primary-color: #a6da95;
     --secondary-color: #ed8796;
